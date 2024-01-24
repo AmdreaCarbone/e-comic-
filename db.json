@@ -1,0 +1,162 @@
+{
+  "products": [
+    {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg"
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg"
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg"
+    },
+    {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg"
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg"
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg"
+    },
+    {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg"
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg"
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg"
+    },
+    {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg"
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg"
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg"
+    },
+    {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg"
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg"
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg"
+    },
+    {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg"
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg"
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg"
+    },
+    {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg"
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg"
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg"
+    },
+    {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg"
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg"
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg"
+    },
+    {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg"
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg"
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg"
+    },
+    {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg"
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg"
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "andrea",
+      "password": "smail",
+      "email": "andrea"
+    }
+  ]
+}

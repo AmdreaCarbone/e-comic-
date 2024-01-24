@@ -1,0 +1,27 @@
+
+<div class="hero">
+  <div *ngIf="type ==   'null'" class="heroTop">
+  <h2 *ngIf="type == 'null' ">Titoli più Richiesti</h2>
+  <h2 *ngIf="type != 'null' ">{{type}}</h2>
+
+  </div>
+
+
+  <div class="rowProdotti" nz-row [nzGutter]="{ xs: [8,8], sm: [16,16], md: [24,24], lg: [32,32] }">
+
+      <div *ngFor="let titolo of titoli" >
+
+          <div nz-col class="gutter-row" [nzSpan]="6">
+            <app-card-product [product] = "titolo" ></app-card-product>
+            <div class="inner-box"></div>
+          </div>
+
+      </div>
+
+    </div>
+</div>
+<div class="container">
+
+
+
+

@@ -1,0 +1,38 @@
+
+<div class="containerUser">
+
+<form *ngIf=" isLogin " [formGroup]="form">
+  <h3>Effettua il log-in</h3>
+  <label for="username">Username</label>
+  <input type="text" formControlName="username" />
+  <label for="password">Password</label>
+  <input type="password" formControlName="password" />
+
+  <button (click)="login()">Login</button>
+</form>
+
+<h3 *ngIf="error"> {{error}} </h3>
+
+<button (click)="isLogin = !isLogin" *ngIf="isLogin"> Non sei ancora registrato, registrati.
+</button>
+
+
+
+
+
+<form *ngIf="!isLogin" [formGroup]="formReg">
+  <div>
+    <h3>Registrazione</h3>
+    <label for="username">Username</label>
+    <input class="form-control" type="text" id="username" formControlName="username" >
+    <label for="password">Password</label>
+    <input class="form-control" type="password" id="password" formControlName="password">
+    <label for="e-mail">E-mail</label>
+    <input class="form-control" type="text" id="email" formControlName="email">
+
+
+    <button (click)="register()" >Register</button>
+    <button (click)="isLogin = !isLogin"> Torna al log-in </button>
+  </div>
+</form>
+</div>
