@@ -1,21 +1,25 @@
 
     <nz-layout class="nzLayout">
-      <nz-header>
-        <div class="logo"></div>
-        <ul nz-menu class="header" nzMode="horizontal">
-          <li nz-menu-item><a routerLink="carrello"><span nz-icon nzType="shopping" nzTheme="fill"></span></a></li>
-         <li nz-menu-item><a routerLink="welcome/null"><span nz-icon nzType="home" nzTheme="fill"></span></a></li>
-         <li nz-menu-item><a routerLink="login"><span nz-icon nzType="meh" nzTheme="fill"></span></a></li>
 
-        </ul>
-      </nz-header>
-      <nz-content>
-        <ul nz-menu class="navBar" nzMode="horizontal">
-          <a routerLink="/welcome/Manga"><li nz-menu-item>Manga</li></a>
-          <a routerLink="/welcome/Comic"><li nz-menu-item>Comic</li></a>
-          <a routerLink="/welcome/Graphic-novel"><li nz-menu-item>Graphic-novel</li></a>
-        </ul>
-      </nz-content>
+
+      <div class="containerHeader">
+        <nz-header>
+          <div class="logo"></div>
+          <ul nz-menu class="header" nzMode="horizontal">
+            <li nz-menu-item><a routerLink="carrello"><span nz-icon nzType="shopping" nzTheme="fill"></span></a></li>
+          <li nz-menu-item><a routerLink="welcome/null"><span nz-icon nzType="home" nzTheme="fill"></span></a></li>
+          <li nz-menu-item><a routerLink="login"><span nz-icon nzType="meh" nzTheme="fill"></span></a></li>
+
+          </ul>
+        </nz-header>
+        <nz-content>
+          <ul nz-menu class="navBar" nzMode="horizontal">
+            <a routerLink="/welcome/Manga"><li nz-menu-item>Manga</li></a>
+            <a routerLink="/welcome/Comic"><li nz-menu-item>Comic</li></a>
+            <a routerLink="/welcome/Graphic-novel"><li nz-menu-item>Graphic-novel</li></a>
+          </ul>
+        </nz-content>
+    </div>
 
 
 
@@ -26,17 +30,32 @@
 
       <nz-footer class="footer">
 
+        <div class="containerFooter">
+          <ul>
+            <p class="pFooter">Contattaci per </p>
+            <a class="aLink" routerLink="spedizioni"><li>Spedizioni</li></a>
+            <a class="aLink" routerLink="rimborsi"><li>Resi e rimborsi</li></a>
+            <a class="aLink" routerLink="servizioClienti"><li>Servizio clienti</li></a>
+          </ul>
 
-        <ul>
-          <a routerLink="spedizioni"><li>Spedizioni</li></a>
-          <a routerLink="rimborsi"><li>Resi e rimborsi</li></a>
-          <a routerLink="servizioClienti"><li>Servizio clienti</li></a>
-        </ul>
+          <div class="containerDownload">
+            <p class="pFooter">scarica su</p>
+            <img src="../assets/scarica-app.png"  height="30px" width="85px" alt="">
+            <img src= "../assets/scarica-2.png"  class="spaceScarica" height="30px" width="85px"  alt="">
+          </div>
 
-
-         <img src="/src/assets/scarica-2.png" alt="">
-         <img src="/src/assets/scarica-app.png" height="50px" alt="">
-
+          <div class="containerIcon">
+            <p class="pFooter">seguici su </p>
+            <span class="icon" nz-icon nzType="instagram" nzTheme="outline"></span>
+            <span class="icon" nz-icon nzType="facebook" nzTheme="fill"></span>
+            <span class="icon" nz-icon nzType="twitter-circle" nzTheme="fill"></span>
+          </div>
+      </div>
+      <p class="diritti">© 2024
+        Comics Etc.
+        All Rights Reserved
+        Terms & Conditions Privacy Policy
+      </p>
 
       </nz-footer>
     </nz-layout>

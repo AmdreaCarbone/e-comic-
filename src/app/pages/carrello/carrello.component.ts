@@ -1,3 +1,6 @@
+import { CartsProduct } from '../../models/cartsProduct';
+import { Product } from '../../models/product';
+import { CartService } from './../../services/cart.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +10,33 @@ import { Component } from '@angular/core';
 })
 export class CarrelloComponent {
 
+
+  products : CartsProduct[] = [];
+
+  prezzoTotale : number = 0;
+
+  constructor( private CartService: CartService ){
+
+    this.getProducts()
+  }
+
+  remove(product : CartsProduct){
+    this.CartService.removeProduct(product).subscribe(res =>{
+      this.getProducts()
+    })
+  }
+
+  getProducts(){
+
+
+     this.CartService.getProducts().subscribe(res => {
+      this.products = res
+      var somma = 0
+      this.products.forEach(product => {
+        somma = somma + product.prezzo
+      })
+      this.prezzoTotale = somma
+      console.log(this.products)
+    })
+  }
 }

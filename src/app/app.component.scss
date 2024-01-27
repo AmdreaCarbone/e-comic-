@@ -96,7 +96,7 @@ nz-header {
 }
 
 .nzLayout {
-  background-color: #EAE2B7;
+  background-color: #d7cf99;
 }
 
 a{
@@ -117,3 +117,59 @@ a{
 .footer{
   background-color: #2b2b2b;
 }
+
+
+
+
+
+
+.containerFooter {
+
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerIcon{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.icon{
+ height: 2rem;
+ color: #D62828;
+}
+
+.diritti{
+  text-align: center;
+  color: #5a5a5a;
+}
+
+.aLink{
+  color: #D62828;
+}
+
+.containerDownload{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.spaceScarica{
+  margin-top: 20%;
+
+}
+
+.pFooter{
+  color: #FCBF49;
+}
+
+.containerHeader{
+
+  position: sticky;
+  top: 0%;
+  z-index: 10;
+}
+

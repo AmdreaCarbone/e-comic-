@@ -11,8 +11,14 @@ import { Form, FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class UserProfileComponent {
 
+  constructor ( private service:LoginService ){
 
-logOut(){
+  }
+
+
+logOutComp(){
+
+  this.service.logOut();
 
 }
 

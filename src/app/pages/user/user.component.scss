@@ -2,3 +2,51 @@
 
   height: 100vh;
 }
+
+.containerLogIn{
+display: flex;
+justify-content: center;
+
+}
+h3, label{
+  color: #EAE2B7;
+}
+.containerForm{
+  background-color: #001529;
+  border-radius: 8%;
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+}
+
+.contLog{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.inpUser{
+  margin-left: 5px;
+}
+
+.inpPass{
+  margin-left: 9px;
+}
+
+.formLogIn{
+  text-align: center;
+}
+
+.RegisterButton{
+
+  margin: 10px;
+}
+.contReg{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}

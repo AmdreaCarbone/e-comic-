@@ -1,13 +1,19 @@
 
 <div class="hero">
   <div *ngIf="type ==   'null'" class="heroTop">
-  <h2 *ngIf="type == 'null' ">Titoli più Richiesti</h2>
+  <h2 class="titoliTop" *ngIf="type == 'null' ">TITOLI PIU' RICHIESTI </h2>
+  <div class="containerTop">
+    <app-card-product class="marginTopCard" [product]="titoli[0]" ></app-card-product>
+    <app-card-product class="marginTopCard" [product]="titoli[2]" ></app-card-product>
+    <app-card-product class="marginTopCard" [product]="titoli[1]" ></app-card-product>
+  </div>
+
   <h2 *ngIf="type != 'null' ">{{type}}</h2>
 
   </div>
 
-
-  <div class="rowProdotti" nz-row [nzGutter]="{ xs: [8,8], sm: [16,16], md: [24,24], lg: [32,32] }">
+<div class="container">
+  <div class="rowProdotti" nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }">
 
       <div *ngFor="let titolo of titoli" >
 
@@ -20,7 +26,7 @@
 
     </div>
 </div>
-<div class="container">
+
 
 
 

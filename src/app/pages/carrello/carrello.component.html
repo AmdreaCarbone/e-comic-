@@ -1,1 +1,14 @@
-<p>carrello works!</p>
+
+
+<h3>Carrello</h3>
+
+<div *ngFor="let product of products">
+  {{ product.name}}
+  {{ product.prezzo}}
+  <button (click)="remove(product)">rimuovi prodotto</button>
+
+</div>
+
+<div>
+  prezzo totale : {{ prezzoTotale}}
+</div>

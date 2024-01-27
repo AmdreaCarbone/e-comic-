@@ -14,7 +14,7 @@ constructor( private http:HttpClient ) { }
 
     return this.http.get <Product[]> ("http://localhost:3000/products").pipe(map(res => {
 
-      return res.map(product => new Product (product.name, product.type, product.img))
+      return res.map(product => new Product (product.name, product.type, product.img, product.prezzo))
 
       }))
 

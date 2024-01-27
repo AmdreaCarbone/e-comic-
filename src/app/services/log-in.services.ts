@@ -4,11 +4,12 @@ import { Injectable } from "@angular/core";
 import { Observable, map } from "rxjs";
 import { User } from "../models/user";
 import { RegUser } from '../models/reg-user';
+import { CartService } from './cart.service';
 
 @Injectable({providedIn:'root'})
 export  class LoginService{
 
-constructor(private http: HttpClient, private router:Router){}
+constructor(private http: HttpClient, private router:Router, private serviceCart:CartService){}
 
 login(username:string, password: string) : Observable < User > {
 
@@ -30,11 +31,11 @@ login(username:string, password: string) : Observable < User > {
  register( username:string, password:string, email:string ) : Observable < RegUser > {
 
 
-  var json = { "id": 1 , "username": username, "password": password, "email": email}
-    return this.http.post <RegUser> ('http://localhost:3000/users' , {
-      id : 1, username : username, password : password, email : email
-    } ).pipe(map(res=>{
+
+    var user = new RegUser ( username, password, email, null)
+    return this.http.post <RegUser> ('http://localhost:3000/users' , user ).pipe(map(res=>{
       sessionStorage.setItem('USER', JSON.stringify(res))
+      this.serviceCart.createChart().subscribe()
       this.router.navigateByUrl('profilo')
     return res
     }))
@@ -53,6 +54,7 @@ login(username:string, password: string) : Observable < User > {
    logOut ( ) {
 
     sessionStorage.removeItem("USER")
+    this.router.navigateByUrl("welcome/null")
 
    }
 

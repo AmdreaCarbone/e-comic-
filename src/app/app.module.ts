@@ -8,7 +8,7 @@ import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NZ_I18N } from 'ng-zorro-antd/i18n';
 import { it_IT } from 'ng-zorro-antd/i18n';
-import { registerLocaleData } from '@angular/common';
+import { CommonModule, registerLocaleData } from '@angular/common';
 import it from '@angular/common/locales/it';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -23,6 +23,8 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
 import { UserComponent } from './pages/user/user.component';
 import { LoginService } from './services/log-in.services';
 import { UserProfileComponent } from './pages/user-profile/user-profile.component';
+import { CartService } from './services/cart.service';
+import { CarrelloComponent } from './pages/carrello/carrello.component';
 
 
 
@@ -35,7 +37,8 @@ registerLocaleData(it);
     CardProductComponent,
     WelcomeComponent,
     UserComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    CarrelloComponent
   ],
   imports: [
     BrowserModule,
@@ -50,13 +53,15 @@ registerLocaleData(it);
     NzIconModule,
     NzCardModule,
     NzGridModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CommonModule
   ],
   providers: [
     provideClientHydration(),
     { provide: NZ_I18N, useValue: it_IT },
     ProductService,
-    LoginService
+    LoginService,
+    CartService
   ],
   bootstrap: [AppComponent]
 })
