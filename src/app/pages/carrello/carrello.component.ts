@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { CartsProduct } from '../../models/cartsProduct';
 import { Product } from '../../models/product';
 import { CartService } from './../../services/cart.service';
@@ -15,7 +16,9 @@ export class CarrelloComponent {
 
   prezzoTotale : number = 0;
 
-  constructor( private CartService: CartService ){
+
+
+  constructor( private CartService: CartService, private Router:Router ){
 
     this.getProducts()
   }
@@ -38,5 +41,12 @@ export class CarrelloComponent {
       this.prezzoTotale = somma
       console.log(this.products)
     })
+  }
+
+  goToPagamento(){
+    this.Router.navigateByUrl('/pagamento', {
+      state:{ totale:this.prezzoTotale }
+    })
+
   }
 }

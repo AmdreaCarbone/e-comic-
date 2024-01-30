@@ -17,141 +17,414 @@
       "type": "Graphic-novel",
       "img": "graphic-novel.jpg",
       "prezzo": 5
-    },
-    {
+    },  {
       "name": "Berserk",
       "type": "Manga",
-      "img": "manga.jpg"
+      "img": "manga.jpg",
+      "prezzo": 5
     },
     {
       "name": "Spider-man",
       "type": "Comic",
-      "img": "comic.jpg"
+      "img": "comic.jpg",
+      "prezzo": 5
     },
     {
       "name": "Meta-baroni",
       "type": "Graphic-novel",
-      "img": "graphic-novel.jpg"
-    },
-    {
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
       "name": "Berserk",
       "type": "Manga",
-      "img": "manga.jpg"
+      "img": "manga.jpg",
+      "prezzo": 5
     },
     {
       "name": "Spider-man",
       "type": "Comic",
-      "img": "comic.jpg"
+      "img": "comic.jpg",
+      "prezzo": 5
     },
     {
       "name": "Meta-baroni",
       "type": "Graphic-novel",
-      "img": "graphic-novel.jpg"
-    },
-    {
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
       "name": "Berserk",
       "type": "Manga",
-      "img": "manga.jpg"
+      "img": "manga.jpg",
+      "prezzo": 5
     },
     {
       "name": "Spider-man",
       "type": "Comic",
-      "img": "comic.jpg"
+      "img": "comic.jpg",
+      "prezzo": 5
     },
     {
       "name": "Meta-baroni",
       "type": "Graphic-novel",
-      "img": "graphic-novel.jpg"
-    },
-    {
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
       "name": "Berserk",
       "type": "Manga",
-      "img": "manga.jpg"
+      "img": "manga.jpg",
+      "prezzo": 5
     },
     {
       "name": "Spider-man",
       "type": "Comic",
-      "img": "comic.jpg"
+      "img": "comic.jpg",
+      "prezzo": 5
     },
     {
       "name": "Meta-baroni",
       "type": "Graphic-novel",
-      "img": "graphic-novel.jpg"
-    },
-    {
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
       "name": "Berserk",
       "type": "Manga",
-      "img": "manga.jpg"
+      "img": "manga.jpg",
+      "prezzo": 5
     },
     {
       "name": "Spider-man",
       "type": "Comic",
-      "img": "comic.jpg"
+      "img": "comic.jpg",
+      "prezzo": 5
     },
     {
       "name": "Meta-baroni",
       "type": "Graphic-novel",
-      "img": "graphic-novel.jpg"
-    },
-    {
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
       "name": "Berserk",
       "type": "Manga",
-      "img": "manga.jpg"
+      "img": "manga.jpg",
+      "prezzo": 5
     },
     {
       "name": "Spider-man",
       "type": "Comic",
-      "img": "comic.jpg"
+      "img": "comic.jpg",
+      "prezzo": 5
     },
     {
       "name": "Meta-baroni",
       "type": "Graphic-novel",
-      "img": "graphic-novel.jpg"
-    },
-    {
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
       "name": "Berserk",
       "type": "Manga",
-      "img": "manga.jpg"
+      "img": "manga.jpg",
+      "prezzo": 5
     },
     {
       "name": "Spider-man",
       "type": "Comic",
-      "img": "comic.jpg"
+      "img": "comic.jpg",
+      "prezzo": 5
     },
     {
       "name": "Meta-baroni",
       "type": "Graphic-novel",
-      "img": "graphic-novel.jpg"
-    },
-    {
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
       "name": "Berserk",
       "type": "Manga",
-      "img": "manga.jpg"
+      "img": "manga.jpg",
+      "prezzo": 5
     },
     {
       "name": "Spider-man",
       "type": "Comic",
-      "img": "comic.jpg"
+      "img": "comic.jpg",
+      "prezzo": 5
     },
     {
       "name": "Meta-baroni",
       "type": "Graphic-novel",
-      "img": "graphic-novel.jpg"
-    },
-    {
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
       "name": "Berserk",
       "type": "Manga",
-      "img": "manga.jpg"
+      "img": "manga.jpg",
+      "prezzo": 5
     },
     {
       "name": "Spider-man",
       "type": "Comic",
-      "img": "comic.jpg"
+      "img": "comic.jpg",
+      "prezzo": 5
     },
     {
       "name": "Meta-baroni",
       "type": "Graphic-novel",
-      "img": "graphic-novel.jpg"
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },  {
+      "name": "Berserk",
+      "type": "Manga",
+      "img": "manga.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
     }
   ],
   "users": [
@@ -184,6 +457,12 @@
       "password": "andrea",
       "email": "andrea",
       "id": 6
+    },
+    {
+      "username": "andrea",
+      "password": "andrea",
+      "email": "andrea",
+      "id": 7
     }
   ],
   "carts": [
@@ -202,6 +481,10 @@
     {
       "id": 4,
       "user": 6
+    },
+    {
+      "id": 5,
+      "user": 7
     }
   ],
   "cartsProduct": [
@@ -240,6 +523,30 @@
     {
       "id": 5,
       "cart": 3,
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },
+    {
+      "id": 6,
+      "cart": 5,
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },
+    {
+      "id": 7,
+      "cart": 5,
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },
+    {
+      "id": 8,
+      "cart": 5,
       "name": "Meta-baroni",
       "type": "Graphic-novel",
       "img": "graphic-novel.jpg",

@@ -7,6 +7,10 @@ import { ServizioclientiComponent } from './pages/servizioclienti/servizioclient
 import { UserComponent } from './pages/user/user.component';
 import { CarrelloComponent } from './pages/carrello/carrello.component';
 import { UserProfileComponent } from './pages/user-profile/user-profile.component';
+import { PagamentoComponent } from './pages/pagamento/pagamento.component';
+import { BancomatComponent } from './pages/bancomat/bancomat.component';
+import { PaypalComponent } from './pages/paypal/paypal.component';
+
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/welcome/null' },
@@ -17,6 +21,12 @@ const routes: Routes = [
   { path: 'servizioClienti', component: ServizioclientiComponent },
   { path: 'login', component: UserComponent },
   { path: 'carrello', component: CarrelloComponent },
+  { path: 'pagamento', component: PagamentoComponent, children: [{
+    path: 'bancomat', component: BancomatComponent
+  }, {
+    path: 'paypal', component:PaypalComponent
+  }] },
+
 ];
 
 @NgModule({

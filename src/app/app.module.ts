@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
@@ -25,6 +26,9 @@ import { LoginService } from './services/log-in.services';
 import { UserProfileComponent } from './pages/user-profile/user-profile.component';
 import { CartService } from './services/cart.service';
 import { CarrelloComponent } from './pages/carrello/carrello.component';
+import { PagamentoComponent } from './pages/pagamento/pagamento.component';
+import { BancomatComponent } from './pages/bancomat/bancomat.component';
+import { PaypalComponent } from './pages/paypal/paypal.component';
 
 
 
@@ -38,7 +42,10 @@ registerLocaleData(it);
     WelcomeComponent,
     UserComponent,
     UserProfileComponent,
-    CarrelloComponent
+    CarrelloComponent,
+    PagamentoComponent,
+    BancomatComponent,
+    PaypalComponent
   ],
   imports: [
     BrowserModule,

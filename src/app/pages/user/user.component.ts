@@ -39,7 +39,7 @@ export class UserComponent {
     this.formReg = this.fb.group({
       username: [null, Validators.required],
       password: [null, Validators.required],
-      email: [null,  Validators.required]
+      email: [null,  [Validators.required, Validators.email]]
     })
 
   }
