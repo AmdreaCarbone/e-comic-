@@ -11,48 +11,30 @@ import { Observable, map } from 'rxjs';
 export class CartService {
 
   url = 'http://localhost:3000/'
-
+///http client è il servizio che gestisce le chiamate al server
 constructor( private httpClient:HttpClient ) {
  }
 
-
+/// questo è il metodo per aggiungere un prodotto al carrello
  addChart( product:Product ):Observable<CartsProduct>{
 
   let user = JSON.parse(sessionStorage.getItem('USER'));
-  let cart = JSON.parse(sessionStorage.getItem('CART'));
-  let cartsProduct = new CartsProduct(null, cart.id, product.name, product.type, product.img, product.prezzo)
+  let cartsProduct = new CartsProduct(null, user.id, product.name, product.type, product.img, product.prezzo)
   return this.httpClient.post<CartsProduct>(this.url + 'cartsProduct' , cartsProduct ).pipe(map(response => {
     return response
    }))
-
-
  }
 
-
- createChart():Observable<Cart>{
-
-
-  let user = JSON.parse(sessionStorage.getItem('USER'));
-  let cart = new Cart( null, user.id )
-
-   return this.httpClient.post<Cart>(this.url + 'carts', cart).pipe(map (response => {
-
-    sessionStorage.setItem('CART', JSON.stringify(response) )
-    return response
-   }))
-
- }
-
-
+/// questo è il metodo per visualizzarli nel carrello in base all'utente che è loggato.
+/// quindi io qua richiedo solo il body della response della chiamata. url e tipo di dato
  getProducts():Observable < CartsProduct[]> {
 
-    return this.httpClient.get <CartsProduct[]> ("http://localhost:3000/cartsProduct?cart="+JSON.parse(sessionStorage.getItem("CART")).id).pipe(map(res => {
+    return this.httpClient.get <CartsProduct[]> ("http://localhost:3000/cartsProduct?cart="+JSON.parse(sessionStorage.getItem("USER")).id).pipe(map(res => {
     return res.map(product => new CartsProduct (product.id, product.cart, product.name, product.type, product.img, product.prezzo))
-
     }))
 
  }
-
+// il body della response è void.
  removeProduct(product: CartsProduct):Observable <Object> {
   console.log(product)
   return this.httpClient.delete("http://localhost:3000/cartsProduct/"+product.id)

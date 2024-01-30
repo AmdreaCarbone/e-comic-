@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { LoginService } from '../../services/log-in.services';
 import { User } from '../../models/user';
-import { Form, FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { RegUser } from '../../models/reg-user';
 
 
 @Component({
@@ -10,6 +10,7 @@ import { Form, FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrl: './user-profile.component.scss'
 })
 export class UserProfileComponent {
+regUser: any;
 
   constructor ( private service:LoginService ){
 

@@ -27,23 +27,18 @@ login(username:string, password: string) : Observable < User > {
     )
   }
 
-
+/// le post vogliono l'url, il body request e ritorna body response .
  register( username:string, password:string, email:string ) : Observable < RegUser > {
-
-
 
     var user = new RegUser ( username, password, email, null)
     return this.http.post <RegUser> ('http://localhost:3000/users' , user ).pipe(map(res=>{
       sessionStorage.setItem('USER', JSON.stringify(res))
-      this.serviceCart.createChart().subscribe()
       this.router.navigateByUrl('profilo')
-    return res
+      return res
     }))
-
-
   }
 
-
+/// serve per controllare se c'è un utente loggato o no.
   isLogged () {
 
     let user = JSON.parse(sessionStorage.getItem("USER"))

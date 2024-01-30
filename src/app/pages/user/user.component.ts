@@ -62,3 +62,4 @@ export class UserComponent {
   }
 
 }
+/// chiama il metodo login o register dal svc loginservices

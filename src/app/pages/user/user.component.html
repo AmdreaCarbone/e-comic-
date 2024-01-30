@@ -13,7 +13,7 @@
           <input class="inpPass" type="password" formControlName="password"/>
         </div>
 
-        <button (click)="login()">Login</button>
+        <button (click)="login()">Login <span nz-icon nzType="login" nzTheme="outline"></span> </button>
     </form>
     <button class="RegisterButton" (click)="isLogin = !isLogin" *ngIf="isLogin">
     Non sei ancora registrato, registrati.
@@ -29,9 +29,9 @@
 
 
 
-  <div class="contReg">
+  <div >
       <form *ngIf="!isLogin" [formGroup]="formReg">
-        <div>
+        <div class="contReg">
           <h3>Registrazione</h3>
           <label for="username">Username</label>
           <input class="form-control" type="text" id="username" formControlName="username" >

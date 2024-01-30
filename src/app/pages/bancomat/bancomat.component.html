@@ -1,7 +1,10 @@
-<form [formGroup]="form">
+
+<div >
+<form class="bancomat" [formGroup]="form">
   <input formControlName="nome" type="text">nome del proprietario della carta
   <input formControlName="numeroCarte" type="number">Inserisci il numero della carta
   <input formControlName="dataScadenza" type="date">data scadenza
   <input formControlName="cvv" type="number">codice cvv
-  <button disabled >effettua il pagamento</button>
+  <button  >completa il pagamento</button>
 </form>
+</div>

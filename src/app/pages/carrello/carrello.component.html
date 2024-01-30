@@ -1,17 +1,21 @@
 
+<div class="bodyCont">
 
-<h3>Carrello</h3>
+<div class="carrello">
+      <h3 class="titoloCarrello">Carrello</h3>
 
-<div *ngFor="let product of products">
-  {{ product.name}}
-  {{ product.prezzo}}
-  <button (click)="remove(product)">rimuovi prodotto</button>
+    <div class="product" *ngFor="let product of products">
+      {{ product.name}}
+      {{ product.prezzo}} $
+      <button (click)="remove(product)"><span nz-icon nzType="delete" nzTheme="outline"></span></button>
 
+    </div>
+
+    <div class="prezzoTotale">
+      prezzo totale : {{ prezzoTotale}} $
+    </div>
+
+    <button (click)="goToPagamento()">vai al pagamento</button>
+
+    </div>
 </div>
-
-<div>
-  prezzo totale : {{ prezzoTotale}}
-</div>
-
-<button (click)="goToPagamento()">vai al pagamento</button>
-

@@ -27,6 +27,28 @@ h3, label{
   flex-direction: column;
   margin: 10px;
 }
+@media only screen and (max-width: 600px) {
+  .contLog{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .inpPass, .inpUser{
+    width: 100%;
+  }
+  .formLogIn{
+    display: flex;
+    flex-direction: column;
+
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+}
 
 .inpUser{
   margin-left: 5px;
@@ -49,4 +71,17 @@ h3, label{
   flex-direction: column;
   align-content: center;
   align-items: center;
+  background-color: #001529;
+  width: 30%;
+  border-radius: 20%;
+  left: 50%;
+  position: absolute;
+    left: 35%;
+    top: 35%;
+}
+
+@media only screen and (max-width: 600px) {
+  input {
+    width: 50%;
+  }
 }

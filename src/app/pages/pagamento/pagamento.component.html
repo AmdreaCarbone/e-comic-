@@ -1,10 +1,14 @@
+
+
+<div class="contPagamento">
 <div>
-  <p>Totale dell'ordine: {{prezzoTotale}}</p>
+  <p>Totale dell'ordine: {{prezzoTotale}} $</p>
 </div>
 
 <div>
   metodo di pagamento:
-  <a routerLink="/pagamento/bancomat">Bancomat</a>
-  <a routerLink="/pagamento/paypal">Paypal</a>
+  <a routerLink="/pagamento/bancomat"><button>Bancomat</button></a>
+  <a routerLink="/pagamento/paypal"><button>Paypal</button></a>
 </div>
 <router-outlet></router-outlet>
+</div>

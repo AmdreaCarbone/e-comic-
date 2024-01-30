@@ -17,7 +17,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzCardModule } from 'ng-zorro-antd/card';
-import { CardProductComponent } from './card-product/card-product.component';
+import { CardProductComponent } from './pages/card-product/card-product.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { ProductService } from './services/product.service';
 import { NzGridModule } from 'ng-zorro-antd/grid';
@@ -73,3 +73,6 @@ registerLocaleData(it);
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+//modulo principale dell'app in cui si richiamano gli altri moduli, componenti e i servizi, i provider
