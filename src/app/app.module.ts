@@ -75,4 +75,3 @@ registerLocaleData(it);
 export class AppModule { }
 
 
-//modulo principale dell'app in cui si richiamano gli altri moduli, componenti e i servizi, i provider

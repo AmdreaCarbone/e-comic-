@@ -11,11 +11,9 @@ import { Observable, map } from 'rxjs';
 export class CartService {
 
   url = 'http://localhost:3000/'
-///http client è il servizio che gestisce le chiamate al server
 constructor( private httpClient:HttpClient ) {
  }
 
-/// questo è il metodo per aggiungere un prodotto al carrello
  addChart( product:Product ):Observable<CartsProduct>{
 
   let user = JSON.parse(sessionStorage.getItem('USER'));
@@ -25,8 +23,7 @@ constructor( private httpClient:HttpClient ) {
    }))
  }
 
-/// questo è il metodo per visualizzarli nel carrello in base all'utente che è loggato.
-/// quindi io qua richiedo solo il body della response della chiamata. url e tipo di dato
+
  getProducts():Observable < CartsProduct[]> {
 
     return this.httpClient.get <CartsProduct[]> ("http://localhost:3000/cartsProduct?cart="+JSON.parse(sessionStorage.getItem("USER")).id).pipe(map(res => {
@@ -34,7 +31,6 @@ constructor( private httpClient:HttpClient ) {
     }))
 
  }
-// il body della response è void.
  removeProduct(product: CartsProduct):Observable <Object> {
   console.log(product)
   return this.httpClient.delete("http://localhost:3000/cartsProduct/"+product.id)

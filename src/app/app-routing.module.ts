@@ -36,4 +36,3 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
 
-// questo è un modulo custom in cui specifico le varie rotte dell'app

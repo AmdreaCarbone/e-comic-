@@ -30,7 +30,6 @@ export class CarrelloComponent {
   }
 
   getProducts(){
-///richiama il services da cart services richiama il metodo getproducts per visualizzare i prodotti del carrello legati all'utente loggato
      this.CartService.getProducts().subscribe(res => {
       this.products = res
       var somma = 0
@@ -46,6 +45,5 @@ export class CarrelloComponent {
     this.Router.navigateByUrl('/pagamento', {
       state:{ totale:this.prezzoTotale }
     })
-  ///per passare informazioni durante il cambio di rotta si può usare state per passare dati (lo state è una proprietà del router)
   }
 }
