@@ -1,7 +1,7 @@
 # EComic
 Per far partire l'applicazione con angular e visionarla sul vostro device aprire due terminali da vsc e mandari i seguenti comandi: 
 ng s -o ad uno per lato client
-json-server --w -db.json all'altro per il lato server.
+json-server --w db.json all'altro per il lato server.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
 
 ## Development server
