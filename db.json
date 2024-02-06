@@ -467,14 +467,6 @@
   ],
   "cartsProduct": [
     {
-      "id": 1,
-      "cart": 1,
-      "name": "Spider-man",
-      "type": "Comic",
-      "img": "comic.jpg",
-      "prezzo": 5
-    },
-    {
       "id": 2,
       "cart": 1,
       "name": "Meta-baroni",
@@ -501,6 +493,22 @@
     {
       "id": 5,
       "cart": 2,
+      "name": "Meta-baroni",
+      "type": "Graphic-novel",
+      "img": "graphic-novel.jpg",
+      "prezzo": 5
+    },
+    {
+      "id": 6,
+      "cart": 1,
+      "name": "Spider-man",
+      "type": "Comic",
+      "img": "comic.jpg",
+      "prezzo": 5
+    },
+    {
+      "id": 7,
+      "cart": 1,
       "name": "Meta-baroni",
       "type": "Graphic-novel",
       "img": "graphic-novel.jpg",
